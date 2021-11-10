@@ -11,7 +11,7 @@ public class TestLionWithParameter {
         private final String sex;
         private final boolean expected;
 
-        public testLionWithParameter(String sex, boolean expected) {
+        public TestLionWithParameter(String sex, boolean expected) {
             this.sex = sex;
             this.expected = expected;
         }

@@ -16,7 +16,7 @@ public class LionTest {
 
     @Test
     public void testGetKittens() throws Exception {
-        String sex = "Самец";
+        String sex = "Cамец";
         Lion lion = new Lion(sex, feline);
         Mockito.when(feline.getKittens()).thenReturn(1);
         int actual = lion.getKittens();
