@@ -6,7 +6,7 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class testLionWithParameter {
+public class TestLionWithParameter {
 
         private final String sex;
         private final boolean expected;
@@ -24,7 +24,7 @@ public class testLionWithParameter {
         };
     }
         @Test
-        public void TestLionWithParameter() throws Exception {
+        public void testLionWithParameter() throws Exception {
             Feline feline = new Feline();
             Lion lion = new Lion(sex, feline);
             boolean actual = lion.doesHaveMane();
